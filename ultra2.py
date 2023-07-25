@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import RPi.GPIO as GPIO
 import time
 import numpy as np
@@ -10,7 +12,7 @@ GPIO_ECHO = 24
 GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
 GPIO.setup(GPIO_ECHO, GPIO.IN)
 
-def distance:
+def distance():
     GPIO.output(GPIO_TRIGGER, True)
 
     time.sleep(0.0001)
